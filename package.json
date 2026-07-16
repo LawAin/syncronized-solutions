@@ -1,0 +1,27 @@
+{
+  "name": "syncronized-solutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LawAin/syncronized-solutions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LawAin/syncronized-solutions/issues"
+  },
+  "homepage": "https://github.com/LawAin/syncronized-solutions#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.3.2"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.2"
+  }
+}
