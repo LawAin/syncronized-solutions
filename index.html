@@ -1,129 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <!-- SEO Meta Tags -->
-    <title>SYNCRONIZED SOLUTIONS LIMITED | Smart Commerce & Logistics</title>
-    <meta name="title" content="SYNCRONIZED SOLUTIONS LIMITED | Smart Commerce & Logistics">
-    <meta name="description" content="SYNCRONIZED SOLUTIONS LIMITED builds high-performance digital ecosystems for modern commerce, featuring Bringforme delivery networks and the MemOS business suite.">
-    
-    <!-- Open Graph / LinkedIn Preview -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://syncronizedsolutions.com/">
-    <meta property="og:title" content="SYNCRONIZED SOLUTIONS LIMITED">
-    <meta property="og:description" content="Building high-performance digital ecosystems for modern commerce, logistics, and retail management.">
-    <meta property="og:image" content="https://syncronizedsolutions.com/assets/og-preview.png">
-
-    <!-- Replace the old script/style blocks with this single line -->
-<link href="./dist/output.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SYNCRONIZED SOLUTIONS LIMITED</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/logo.png">
+  
+  <!-- Compiled Tailwind CSS -->
+  <link href="./dist/output.css" rel="stylesheet">
 </head>
-<body class="bg-brandDark text-slate-100 min-h-screen flex flex-col justify-between font-sans selection:bg-blue-500 selection:text-white">
+<body class="bg-[#071318] text-slate-100 min-h-screen flex flex-col justify-between selection:bg-teal-500 selection:text-white relative overflow-x-hidden">
 
-    <!-- Background decorative gradients for the glass layout to pop -->
-    <div class="absolute inset-0 overflow-hidden pointer-events-none z-0">
-        <div class="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-blue-900/20 blur-[120px]"></div>
-        <div class="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] rounded-full bg-emerald-900/10 blur-[120px]"></div>
+  <!-- Background decorative glow effects -->
+  <div class="fixed inset-0 pointer-events-none -z-10 overflow-hidden">
+    <div class="absolute -top-40 -left-40 w-96 h-96 bg-teal-500/15 rounded-full blur-3xl"></div>
+    <div class="absolute top-1/3 -right-40 w-96 h-96 bg-cyan-600/15 rounded-full blur-3xl"></div>
+    <div class="absolute -bottom-40 left-1/3 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="w-full max-w-6xl mx-auto px-6 py-8 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <img src="./assets/logo.png" alt="Syncronized Solutions Logo" class="w-10 h-10 object-contain">
+      <span class="font-extrabold tracking-wider text-lg md:text-xl text-white uppercase">
+        SYNCRONIZED SOLUTIONS LIMITED
+      </span>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="w-full max-w-6xl mx-auto px-6 py-12 flex-1 flex flex-col justify-center">
+    
+    <!-- Hero Section -->
+    <div class="max-w-3xl mb-16">
+      <h1 class="text-4xl md:text-6xl font-black tracking-tight text-white mb-6 leading-normal pb-2">
+        Engineering the Future of Commerce &amp; Logistics.
+      </h1>
+      <p class="text-lg md:text-xl text-slate-300 font-normal leading-relaxed">
+        SYNCRONIZED SOLUTIONS LIMITED is an Information Technology Company that specializes in building high-performance, real-time software systems. We bridge the gap between complex logistical operations and the streamlined efficiency demanded by modern business.
+      </p>
     </div>
 
-    <!-- Header -->
-    <header class="relative z-10 w-full max-w-6xl mx-auto px-6 py-8 flex justify-between items-center">
-        <div class="flex items-center gap-2">
-            <!-- Sleek Minimalist Logo Mark -->
-            <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-blue-500 to-emerald-400 flex items-center justify-center font-bold text-slate-900 text-lg">
-                S
-            </div>
-            <span class="font-bold tracking-wider text-sm md:text-base uppercase text-white">SYNCRONIZED SOLUTIONS</span>
+    <!-- Product Cards Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+      
+      <!-- Card 1: Bring For Me -->
+      <a href="https://bringforme.com" target="_blank" rel="noopener noreferrer" 
+         class="glass-card rounded-2xl p-7 flex flex-col justify-between min-h-[260px] border border-white/10 hover:border-teal-400/40 transition-all duration-300 hover:-translate-y-1 block group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-teal-500/10 border border-teal-500/20 flex items-center justify-center text-teal-400 mb-6 group-hover:bg-teal-500/20 transition-colors">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+          </div>
+          <h2 class="text-xl font-bold text-white mb-3 flex items-center justify-between">
+            Bring For Me
+            <span class="text-teal-400 opacity-0 group-hover:opacity-100 transition-opacity">↗</span>
+          </h2>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            A real-time location-based online delivery platform. Providing session isolation and precise, autonomous background tracking.
+          </p>
         </div>
-        <a href="#ecosystem" class="text-sm font-medium text-slate-400 hover:text-white transition-colors">Our Ecosystem</a>
-    </header>
+      </a>
 
-    <!-- Main Content -->
-    <main class="relative z-10 w-full max-w-6xl mx-auto px-6 py-12 flex-grow flex flex-col justify-center">
-        
-        <!-- Hero Section -->
-        <section class="max-w-3xl mb-16">
-            <span class="text-blue-400 text-sm font-semibold tracking-widest uppercase">Parent Company Portal</span>
-            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mt-2 mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-100 to-slate-400">
-                Engineering the Future of Commerce & Logistics.
-            </h1>
-            <p class="text-slate-400 text-lg md:text-xl leading-relaxed">
-                SYNCRONIZED SOLUTIONS LIMITED specializes in building robust, high-performance software systems designed to solve real-world transaction, tracking, and operational bottlenecks. 
-            </p>
-        </section>
-
-        <!-- Ecosystem Section (The Glass Sheets Layout) -->
-        <section id="ecosystem" class="mb-12">
-            <h2 class="text-2xl font-bold mb-8 text-white flex items-center gap-2">
-                <span class="w-4 h-[2px] bg-blue-500"></span> Current Product Ecosystem
-            </h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                
-                <!-- Product 1: Bringforme -->
-                <div class="glass-card rounded-2xl p-6 flex flex-col justify-between min-h-[250px] transition-all">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/20">70% Operational</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2">Bringforme</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                            A real-time online delivery management system. Bridging the gap between merchants, dynamic fleets, and consumers on a unified live map.
-                        </p>
-                    </div>
-                    <a href="https://bringforme.com" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm font-semibold text-blue-400 hover:text-blue-300 transition-colors group">
-                        Visit Bringforme 
-                        <span class="transform group-hover:translate-x-1 transition-transform">&rarr;</span>
-                    </a>
-                </div>
-
-                <!-- Product 2: MemOS - Stores -->
-                <div class="glass-card rounded-2xl p-6 flex flex-col justify-between min-h-[250px] transition-all">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Production Ready</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2">MemOS - Stores</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                            Our premier retail ledger app. Effortlessly manage daily sales registers, process point-of-sale activities, and track dynamic multi-store inventory.
-                        </p>
-                    </div>
-                    <a href="https://bringforme.com/memos/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm font-semibold text-emerald-400 hover:text-emerald-300 transition-colors group">
-                        Open MemOS Stores 
-                        <span class="transform group-hover:translate-x-1 transition-transform">&rarr;</span>
-                    </a>
-                </div>
-
-                <!-- Product 3: MemOS - Logistics -->
-                <div class="glass-card rounded-2xl p-6 flex flex-col justify-between min-h-[250px] transition-all">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-purple-500/10 text-purple-400 border border-purple-500/20">In Development</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2">MemOS - Logistics</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                            The sister vertical to MemOS. Optimized tracking modules specialized in dispatch logistics, delivery status tracking, and fulfillment records.
-                        </p>
-                    </div>
-                    <span class="text-sm font-semibold text-slate-500">Coming Soon</span>
-                </div>
-
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer class="relative z-10 w-full max-w-6xl mx-auto px-6 py-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p class="text-xs text-slate-500">
-            &copy; 2026 SYNCRONIZED SOLUTIONS LIMITED. All rights reserved.
-        </p>
-        <div class="flex gap-6 text-xs text-slate-500">
-            <span>Corporate Registration No: RC [Your Reg Number]</span>
+      <!-- Card 2: MemOS - Stores -->
+      <a href="https://bringforme.com/memos/" target="_blank" rel="noopener noreferrer"
+         class="glass-card rounded-2xl p-7 flex flex-col justify-between min-h-[260px] border border-white/10 hover:border-teal-400/40 transition-all duration-300 hover:-translate-y-1 block group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-teal-500/10 border border-teal-500/20 flex items-center justify-center text-teal-400 mb-6 group-hover:bg-teal-500/20 transition-colors">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+            </svg>
+          </div>
+          <h2 class="text-xl font-bold text-white mb-3 flex items-center justify-between">
+            MemOS - Stores
+            <span class="text-teal-400 opacity-0 group-hover:opacity-100 transition-opacity">↗</span>
+          </h2>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            Our premier Retail Sales &amp; Inventory Management app. Optimize store-level operations, track stock with absolute clarity, and manage financials effortlessly.
+          </p>
         </div>
-    </footer>
+      </a>
+
+      <!-- Card 3: Bring For Me - Logistics -->
+      <div class="glass-card rounded-2xl p-7 flex flex-col justify-between min-h-[260px] border border-white/10">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-teal-500/10 border border-teal-500/20 flex items-center justify-center text-teal-400 mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"/>
+            </svg>
+          </div>
+          <h2 class="text-xl font-bold text-white mb-3">Bring For Me - Logistics</h2>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            The sister vertical to MemOS - Stores, built specifically for Logistics businesses. Optimized tracking modules for warehouse inventory, dispatch logistics, and autonomous route management.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- WhatsApp Contact Button -->
+    <div class="flex flex-col items-center justify-center pt-4">
+      <a href="https://wa.me/2348036799388" target="_blank" rel="noopener noreferrer"
+         class="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold text-base shadow-lg shadow-[#25D366]/20 transition-all duration-300 hover:scale-105 active:scale-95">
+        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+          <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.275.072.376-.044c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.086s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.126.557 4.122 1.529 5.856l-1.625 5.944 6.088-1.597c1.677.915 3.597 1.436 5.633 1.436 6.627 0 12-5.373 12-12 0-6.627-5.373-12-12-12z"/>
+        </svg>
+        <span>Contact Us</span>
+      </a>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="w-full max-w-6xl mx-auto px-6 py-8 border-t border-white/5 text-center text-xs text-slate-300 flex flex-col sm:flex-row items-center justify-between gap-4">
+    <p>&copy; 2026 Syncronized Solutions Limited. All rights reserved.</p>
+    <div class="flex items-center gap-6">
+      <a href="./privacy.html" class="hover:text-slate-300 transition-colors">Privacy Policy</a>
+    </div>
+  </footer>
 
 </body>
 </html>
